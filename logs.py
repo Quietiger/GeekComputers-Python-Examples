@@ -8,7 +8,7 @@
 #               : 1.2 - Tidy up comments and syntax
 #
 # Description   : This script will search for all *.log files in the given directory, zip them using the program you specify and then date stamp them
-
+#!usr/bin/env python3
 import os                   # Load the Library Module
 from time import strftime   # Load just the strftime Module from Time
 
